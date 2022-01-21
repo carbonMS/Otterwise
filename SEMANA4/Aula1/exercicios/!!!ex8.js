@@ -17,10 +17,22 @@ const names = [
   'Carlos',
   'Carla',
 ]
+let found = 'Carla'
 
-const findName = names.find((name) => {
-  if (name === 'Carla') {
-    return `O nome ${name} existe no Array`
+const findName = names.find((name, index, array) => {
+  if (found === array[index]) {
+    found = `O nome ${name} existe no Array`
   }
 })
-console.log(findName)
+
+console.log(found)
+
+// const findName = names.find((name, index, array) => {
+//   if (name === array[index]) {
+//     return `O nome ${name} existe no Array`
+//   } else {
+//     return `O nome ${name} não existe no Array`
+//   }
+// })
+
+// console.log(findName)

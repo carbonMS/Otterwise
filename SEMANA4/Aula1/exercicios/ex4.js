@@ -3,4 +3,10 @@
 // OBS: Para melhorar a resolução desse problema, monte um programa que
 // retorna a média aritmética independente do tamanho do array.
 // Exemplo Entrada:
-// [6, 8, 7]
+const notes = [6, 8, 7, 10, 15]
+
+const calculate = notes.reduce((acc, index) => {
+  return acc + index / notes.length
+}, 0)
+
+console.log(calculate)

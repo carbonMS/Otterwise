@@ -8,11 +8,11 @@
 // O valor foi encontrado no Array.
 
 const numbers = [1, 3, -12, 33, -1, 9, 110, -1168, 252, -15253, 2127]
+let found = 9
 
-const findNum = numbers.find((num) => {
-  return numbers === 9
+const findNum = numbers.find((num, index, array) => {
+  if (found === array[index]) {
+    found = `O valor (${num}) foi encontrado no Array`
+  }
 })
-console.log(findNum)
-
-// onst student = studentsAndTeachers.find((user) => {
-//     return user.role === "Estudante";
+console.log(found)
