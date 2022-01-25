@@ -1,0 +1,5 @@
+git checkout -b para criar uma branch nova no git
+
+
+readFileSync do FS pra ler arquivos
+
