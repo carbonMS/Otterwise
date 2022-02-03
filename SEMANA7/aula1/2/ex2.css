@@ -1,0 +1,7 @@
+/* 2. Crie uma lista de elementos utilizando as tags ul e li com 10 elementos e mude a cor de fundo apenas dos 
+elementos pares, ou seja, apenas as li’s pares. (Coloque o número do item dentro das tags li.
+ Ex.: <li>1</li>). Utilize nth-child para fazer essa tarefa */
+
+.list-item:nth-child(even) {
+  background-color: blue;
+}

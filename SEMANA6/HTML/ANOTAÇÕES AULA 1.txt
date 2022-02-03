@@ -1,0 +1,104 @@
+TAGS HTML
+
+<H1> - MAIOR DESTAQUE
+<H2> 
+<H3>
+<H4>
+<H5>
+<H6> - MENOR DESTAQUE
+
+(TITULOS E SUBTITULOS)
+
+ANCOR ( <a> ) - leva a algum outro lugar (links)
+Atributo TARGET="_blank" abre link em outra aba
+
+<p> = PARAGRAPH (parágrafos)
+
+<div> = DIVISÓRIA (divide o site em pedaços)
+id = identificador único. vira seletor pra estilizar a div de acordo com o id (no js e css)
+class = também é um seletor (mas para css) pode usar a mesma em várias tags 
+
+<img> = IMAGE (imagem)
+src = source (endereço), alt = texto alternativo pra descrever a imagem (acessibilidade)
+
+<ul> = Lista não ordenada
+
+<li> = LIST ITEM
+
+<ol> = LISTA ORDENADA (Por números)
+
+<link> = importar css pra pagina
+
+
+ELEMENTOS PARA DAR SEMÂNTICA AO SITE:
+
+<header> = cabeçalho (tudo que ta aqui dentro é a parte de cima do meu site)
+
+<main> = tudo aqui dentro é o principal do body, conteudo do meio, que quero que o usuário foque (só pode ser usado uma vez)
+
+<footer> = rodapé do site, informações tipo telefone e etc
+
+<nav> = navbar, barra de navegação
+
+<section> = delimitar seções (recomendado usar divs dentro de sections)
+
+<aside> = ao lado de alguma coisa, conteúdo que não é o principal mas é quase tão principal quanto
+
+<button> = criar botões
+
+
+CSS:
+
+Margin = pra espaçar pra fora
+
+padding = pra espaçar pra dentro
+
+color = trocar cores
+
+line-height = mudar altura da linha
+
+font size = tamanho da fonte
+
+fonte weight = negrito e etc
+
+width = largura
+
+display: block = faz ocupar toda a largura da tela
+
+height = altura (melhor não usar height fixo em tudo, da problema geralmente)
+
+background-color = trocar cor de fundo
+
+pra usar ids colocar #
+pra usar classes colocar .
+pra mudar todos elementos de uma classe aninhar o elemento junto, exemplo .post p, ,post h6 {font-size: 20px}
+
+* é um seletor universal, todos elementos dentro de uma classe recebem os atributos
+exemplo .post * {color: blue}
+
+todos navegadores colocam margin e padding no body, pra ficar igual em todos tem que resetar o CSS 
+colocar no topo do css:
+pra todos elementos da tela tenham propriedade box-sizing: border-box
+
+*{
+box-sizing: border-box;
+border: 0;
+} (deixa o elemento no tamanho total dele em px)
+
+html, body {
+margin: 0;
+padding: 0;
+} (reseta as margens e padding padrão do css)
+
+a,button {
+cursor: pointer;
+}
+(faz ficar a mãozinha do mouse no button e no a)
+
+----------------------------------------------
+
+100vh = 100% view height
+
+flexbox:
+
+display-flex mexe nos filhos diretos somente

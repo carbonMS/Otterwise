@@ -1,0 +1,23 @@
+hover :hov
+exemplo
+.button:hover {}
+
+desabilitar 
+no html disabled
+no css .button:disabled {}
+
+empty = não aparecer quando vazio
+exemplo
+.list:empty {display:none}
+
+first child
+last child
+nth child(numero)
+
+caniuse.com
+
+SEO = Search Engine Optimization, otimizar pra ser bem ranqueado nos motores de busca
+
+robots.txt serve pra impedir paginas de serem indexadas
+
+bootstrap, tailwind

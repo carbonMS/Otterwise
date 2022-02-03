@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  border: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+.linkz {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5px;
+  background-color: darkcyan;
+  display: block;
+  font-size: 12px;
+}
+
+.text {
+  font-size: 12px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}

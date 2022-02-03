@@ -1,0 +1,24 @@
+https://www.frontendmentor.io/challenges
+https://www.figma.com
+https://www.dribble.com
+bootstrap
+
+
+html, body {
+margin: 0;
+padding: 0;
+border: none;
+box-sizing: border-box;
+}
+
+ocupar toda a tela height: 100vh (view height)
+classe container serve pra delimitar o tamanho maximo em varios dispositivos
+
+BEM CSS = padronização de classes do css
+bloco elemento modificador
+
+exemplo class="button button__primary"
+class ="button button__outlined"
+
+justify content é pra column (eixo y)
+align items é pra row (eixo x)
